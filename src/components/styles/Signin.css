@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+p {
+  color: #04080f;
+}
+
+.signup-link,
+.forgot-password,
+.signup-link-agent,
+.signup-link-proprietor,
+.forgot-password:hover,
+.signup-link:hover,
+.signup-link-agent:hover,
+.signup-link-proprietor:hover {
+  color: #04080f;
+  text-decoration: underline;
+}
+
+.icon {
+  position: absolute;
+  top: 5.9px;
+  z-index: 100;
+  left: 8px;
+  font-size: 8px;
+}
+
+.form-control {
+  padding: 5px 15px 5px !important;
+}
+
+.form-control[type] {
+  padding-left: 45px !important;
+}
+
+.or-text {
+  padding: 4px 0 10px;
+  color: #04080f !important;
+  font-size: inherit !important;
+  font-weight: normal;
+  margin-bottom: -5px;
+}
+
+.btn-signin,
+.btn-signup,
+.btn-signin-google,
+.btn-signin-facebook {
+  padding: 5px 15px 8px;
+  border: none;
+  color: #fdfffc;
+  border-radius: 3px;
+  background-color: #0d7895;
+  outline: none;
+}
+
+.btn-signin-google {
+  background-color: #db4437;
+}
+
+.btn-signin-facebook {
+  background-color: #4267b2;
+}
+
+.btn-signup {
+  margin-top: 8px;
+}
+
+.signup-title,
+.signin-title {
+  color: #04080f !important;
+  font-size: 25px !important;
+  padding-bottom: 15px;
+}
+
+.error-message {
+  color: #f71735;
+  font-size: 12px;
+  font-style: italic;
+  padding: -5px 0 50px;
+}
+
+.p-agent,
+.p-proprietor {
+  margin-top: -15px;
+}
